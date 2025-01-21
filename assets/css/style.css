@@ -9,14 +9,17 @@
 header {
     width: 100%;
     background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
+    
 }
+
+
 
 .header-top {
     width: 91%;
     margin: 0 6%;
     margin-right: 2% !important;
     display: flex;
-
+    height: 67px;
 }
 
 .header-logo {
@@ -32,6 +35,7 @@ header {
     -moz-border-radius: 13px;
     -ms-border-radius: 13px;
     -o-border-radius: 13px;
+    height: 61px;
 }
 
 .link-header {
@@ -53,11 +57,99 @@ header {
 .icon-header {
     width: 15%;
 }
+
 .sign-header {
     color: #eaeaea;
     display: flex;
     flex-direction: row-reverse;
 }
+
+.title-header-sign {
+    margin-top: 18px;
+}
+
+.title-header-sign h3 {
+    font-size: 15px;
+    margin: 3px;
+    margin-right: 13px;
+    color: gray;
+}
+
+[name="person-outline"] {
+    font-size: 30px;
+    position: absolute;
+    top: 24px;
+    left: 281px;
+}
+
+.card-header {
+    margin-top: -36px;
+    color: #eaeaea;
+    display: flex;
+    margin-right: 298px;
+}
+
+[name="cart-outline"] {
+    font-size: 30px;
+    position: absolute;
+    top: 24px;
+    left: 124px;
+}
+
+
+.title-header-num {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title-header-num span {
+    margin: 0 5px;
+    color: #ff3a4b;
+}
+
+.title-header-cart h3 {
+    font-size: 15px;
+    margin: 3px;
+    margin-right: 13px;
+    color: gray;
+}
+
+.circle-card-number {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ff3a4b;
+    position: absolute;
+    left: 140px;
+}
+
+.cart-number h1 {
+    position: absolute;
+    left: 144px;
+    top: 22px;
+    font-size: 18px;
+}
+
+
+.header-but {
+    background-color: #fa2637;
+    width: 100%;
+   
+}
+
+
+
+
+
+
+
+
+
+
 .header-search form {
     border-radius: 30px;
     overflow: hidden;
