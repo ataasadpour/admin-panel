@@ -8,8 +8,8 @@
 /* Start Header */
 header {
     width: 100%;
-    background: linear-gradient(180deg, #111823, #0c1014, #0c1014);
-    
+    background-color: #12172b;
+
 }
 
 
@@ -35,7 +35,7 @@ header {
     -moz-border-radius: 13px;
     -ms-border-radius: 13px;
     -o-border-radius: 13px;
-    height: 61px;
+    height: 67px;
 }
 
 .link-header {
@@ -129,31 +129,68 @@ header {
 
 .cart-number h1 {
     position: absolute;
-    left: 144px;
-    top: 22px;
-    font-size: 18px;
+    left: 144.5px;
+    top: 23px;
+    font-size: 16px;
 }
-
 
 .header-but {
-    background-color: #fa2637;
+    background-color: #dd2956;
     width: 100%;
-   
+    height: 61px;
+}
+
+.dropdone {
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    background-color: #e04066;
+    display: flex;
+    flex-direction: row;
+    margin-right: 27px;
+    top: 72px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+[name="menu-outline"] {
+    font-size: 27px;
+    margin: 10px 0px;
+    margin-right: 7px;
+}
+
+.dropdone h1 {
+    margin: 17px 6px 0;
 }
 
 
+[name="chevron-down-outline"] {
+    font-size: 25px;
+    margin: 11px 59px 0 0;
+}
 
+.title-header-but h1 {
+    color: #fff;
+    margin-right: 356px;
+    position: absolute;
+    top: 88px;
+}
 
-
-
-
-
-
+.header-search {
+    width: 611px;
+    margin-right: 660px;
+    position: absolute;
+    top: 72px;
+}
 
 .header-search form {
-    border-radius: 30px;
+    border-radius: 5px;
     overflow: hidden;
     display: flex;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .header-search form input {
@@ -168,19 +205,120 @@ header {
 .header-search form button {
     border: none;
     font-size: 26px;
-    width: 8%;
-    background: #ff3a4b;
+    width: 22%;
+    background: #12172b;
     color: #fff;
-    border-radius: 30px 0 0 30px;
+    border-radius: 5px 0 0 5px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+
+.header-search form button h1 {
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+/* swiper hero */
+.swiper1 {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+section.hero-section {
+    margin-top: -48px;
+    border-radius: 20px;
+}
+
+.hero-section .swiper {
+    width: 96%;
+    margin-top: 30px;
+
+    border-radius: 20px;
+}
+
+.hero-section .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #12172b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+.hero-section .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* swiper hero2 */
+
+.hero2-section {
+    width: 85%;
+    margin-right: 7%;
+    margin-top: 2%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 48px;
+    display: flex;
+
     justify-content: center;
     align-items: center;
 }
 
-.header-search form button i {
-    width: 40px;
-    height: 43px;
-    font-size: 33px;
-    display: inline-block;
-    color: #fff;
+
+.swiper-slide2 {
+    margin-top: 50px;
+}
+
+.swiper2-slide img {
+    display: block;
+    width: 50%;
+    height: 92%;
+    object-fit: cover;
+    position: absolute;
+    top: -58px;
+    left: 53px;
+}
+
+.swiper2-slide {
+    height: 155px !important;
+    width: 200px !important;
+    border-radius: 50% 50% 5% 5%;
+    -webkit-border-radius: 50% 50% 5% 5%;
+    -moz-border-radius: 50% 50% 5% 5%;
+    -ms-border-radius: 50% 50% 5% 5%;
+    -o-border-radius: 50% 50% 5% 5%;
+    background-color: #fceed3;
+}
+
+.swiper2-slide h1 {
+    color: black;
+    margin-top: 88px;
+    font-size: 25px;
+}
+
+.swiper2-slide h2 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: gray;
 }
