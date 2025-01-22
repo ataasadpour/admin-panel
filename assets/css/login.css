@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: Vazirmatn;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(black, white, black);
+    
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 450px;
+    width: 350px;
+    position: relative;
+    border-radius: 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+
+form {
+    position: absolute;
+    right: 14%;
+    color: white;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px 0;
+	color: rgb(48, 47, 47);
+	position: relative;
+	left: 5%;
+}
+
+.box .form .input .inputbox {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    padding-right: 33px;
+    border-radius: 7px;
+    color: rgb(48, 47, 47);
+    font-size: 16px;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.2);
+    margin: 7px 0;
+}
+
+.input-forgot {
+    color: rgb(48, 47, 47);
+}
+
+.sub {
+    margin: 15px;
+    width: 100%;
+    padding: 9px;
+    left: -5%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 7px;
+    color: rgb(48, 47, 47);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.sub:active {
+    border: none;
+}
+
+.sub:hover {
+    background-color: gray;
+    
+}
+.icon-pass {
+	position: absolute;
+	top: 72%;
+	left: 87.5%;
+	font-size: 25px;
+	color: rgba(48, 47, 47,0.7);
+}
+.icon-phone {
+	position: absolute;
+	font-size: 25px;
+	color: rgba(48, 47, 47,0.7);
+	left: 87%;
+	top: 28%;
+}
+.icon-user {
+	position: absolute;
+	font-size: 25px;
+	color: rgba(48, 47, 47,0.7);
+	left: 87%;
+	top: 50%;
+}
+.icon-name {
+	position: absolute;
+	font-size: 25px;
+	color: rgba(48, 47, 47,0.7);
+	left: 87%;
+	top: 6%;
+}
+
+/* انمیشن برف */
+
+.snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+.snowflake {
+    position: absolute;
+    top: -10%;
+    background: white;
+    opacity: 0.002;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+
+
+
+
