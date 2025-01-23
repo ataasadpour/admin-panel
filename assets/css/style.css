@@ -493,12 +493,37 @@ section.hero-section {
     right: 417px;
 }
 
+/* section pishnahad */
 
+.off-card-pish {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    
+    position: absolute;
+    top: 260%;
+    right: 3%;
+}
+.off-card-pish > .card-off-child {
+   margin: 0 6px;
+}
+
+h1.pishh1 {
+    color: #E8A20D;
+    font-weight: 800;
+    text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.47);
+    font-size: 30px;
+    position: absolute;
+    top: 250%;
+    z-index: 999;
+    right: 40%;
+}
 
 
 /* footer */
 
 .footer {
+    margin-top: 130px;
     width: 100%;
     height: auto;
     background-color:  #12172b;
@@ -585,3 +610,4 @@ section.hero-section {
     padding: 10px 0;
     color: #ffffffdc;
 }
+
