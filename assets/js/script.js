@@ -1,3 +1,7 @@
+const dropdone = document.getElementById("dropdone")
+const uldropejs = document.getElementById("uldropejs")
+
+
 // swiper hero
 
 var swiper1 = new Swiper(".swiper1", {
@@ -30,3 +34,9 @@ var swiper2 = new Swiper(".swiper2", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+function dropfunc() {
+    uldropejs.className="ul-dropdone"
+}
+
+dropdone.addEventListener("mousemove", dropfunc)

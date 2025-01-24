@@ -138,16 +138,39 @@ header {
 }
 
 .dropdone {
-    position: absolute;
+    position: relative;
     width: 270px;
     height: 48px;
     background-color: #e04066;
     display: flex;
     flex-direction: row;
     margin-right: 27px;
-    top: 72px;
+    top: 5px;
     border-radius: 5px;
     color: #fff;
+    cursor: pointer;
+}
+
+.ul-dropdone {
+    position: absolute;
+    top: 122%;
+    z-index: 998;
+    background-color: #dd2956;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    display: block !important;
+
+}
+
+.ul-dropdone li {
+    display: flex;
+    flex-direction: column;
+    width: 137px;
+    margin: 15px 22px 16px -1px;
+    font-size: 22px;
 }
 
 [name="menu-outline"] {
@@ -491,13 +514,17 @@ section.hero-section {
 
 
 /* section pishnahad */
+.pishnahad {
+    position: relative;
+    margin: 5% 0 15%;
+}
 
 .off-card-pish {
     display: flex;
     flex-direction: row;
     z-index: 1;
     position: absolute;
-    top: 260%;
+    top: 25%;
     right: 3%;
 }
 
@@ -511,7 +538,7 @@ h1.pishh1 {
     text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.47);
     font-size: 30px;
     position: absolute;
-    top: 250%;
+    top: 10%;
     z-index: 999;
     right: 40%;
 }
@@ -526,10 +553,12 @@ h1.pishh1 {
     background-color: #12172b;
     display: flex;
     flex-direction: row;
+
     h3,
     h4 {
         color: #ffffffdc;
     }
+
     p {
         color: #ffffffdc;
     }
@@ -602,4 +631,365 @@ h1.pishh1 {
     display: flex;
     padding: 10px 0;
     color: #ffffffdc;
+}
+
+
+/* ris 400 */
+
+@media only screen and (min-width: 370px) and (max-width:413px) {
+
+    /* header */
+
+    .header-logo {
+        width: 60%;
+    }
+
+    .title-header-sign h3 {
+        font-size: 15px;
+        margin: 3px;
+        margin-right: -71px;
+        color: gray;
+    }
+
+    .title-header-sign h2 {
+        margin-right: -72px;
+    }
+
+    [name="person-outline"] {
+        font-size: 30px;
+        position: absolute;
+        top: 24px;
+        left: 193px;
+    }
+
+    .card-header {
+        margin-top: -36px;
+        color: #eaeaea;
+        display: flex;
+        margin-right: 101px;
+    }
+
+    [name="cart-outline"] {
+        left: 69px;
+    }
+
+    .circle-card-number {
+        left: 86px;
+    }
+
+    .cart-number h1 {
+        left: 91px
+    }
+
+    /* header-but */
+
+
+
+    .title-header-but h1 {
+        display: none;
+    }
+
+    .header-but {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 114px;
+        position: relative;
+    }
+
+    .dropdone {
+        position: relative;
+        width: 80%;
+        height: 48px;
+        background-color: #e04066;
+        display: flex;
+        flex-direction: row;
+        margin-right: 8%;
+        top: -6px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .header-search {
+        width: 94%;
+        margin: 0 3%;
+        position: absolute;
+        top: 8px;
+    }
+
+    [name="chevron-down-outline"] {
+        font-size: 25px;
+        margin: 11px 67px 0 0;
+    }
+
+    .dropdone h1 {
+        margin: 17px 22px 0;
+    }
+
+    /* hero1 */
+
+    .hero-section .swiper {
+        width: 96%;
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 250px;
+    }
+
+    .hero-section .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+
+    .hero3-section, .off-section, .pishnahad, .footer-copyright, .footer, .link-header, .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+}
+
+
+
+/* ris 576 */
+
+@media only screen and (min-width: 414px) and (max-width:576px) {
+    /* header */
+
+    .header-logo {
+        width: 60%;
+    }
+
+    .title-header-sign h3 {
+        font-size: 15px;
+        margin: 3px;
+        margin-right: -100px;
+        color: gray;
+    }
+
+    .title-header-sign h2 {
+        margin-right: -102px;
+    }
+
+    [name="person-outline"] {
+        font-size: 30px;
+        position: absolute;
+        top: 24px;
+        left: 193px;
+    }
+
+    .card-header {
+        margin-top: -36px;
+        color: #eaeaea;
+        display: flex;
+        margin-right: 101px;
+    }
+
+    [name="cart-outline"] {
+        left: 44px;
+    }
+
+    .circle-card-number {
+        left: 62px;
+    }
+
+    .cart-number h1 {
+        left: 67px;
+    }
+
+    /* header-but */
+
+
+
+    .title-header-but h1 {
+        display: none;
+    }
+
+    .header-but {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 114px;
+        position: relative;
+    }
+
+    .dropdone {
+        position: relative;
+        width: 47%;
+        height: 48px;
+        background-color: #e04066;
+        display: flex;
+        flex-direction: row;
+        margin-right: 8%;
+        top: -6px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .header-search {
+        width: 94%;
+        margin: 0 3%;
+        position: absolute;
+        top: 8px;
+    }
+
+    [name="chevron-down-outline"] {
+        font-size: 25px;
+        margin: 11px 8px 0 0;
+    }
+
+    .dropdone h1 {
+        margin: 17px 22px 0;
+    }
+
+    /* hero1 */
+
+    .hero-section .swiper {
+        width: 96%;
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 300px;
+    }
+
+    .hero-section .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+
+    .hero3-section, .off-section, .pishnahad, .footer-copyright, .footer, .link-header, .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+}
+
+
+/* ris 768 */
+
+@media only screen and (min-width: 577px) and (max-width:768px) {
+    /* header */
+
+    .header-logo {
+        width: 60%;
+    }
+
+    .title-header-sign h3 {
+        font-size: 15px;
+        margin: 3px;
+        margin-right: -100px;
+        color: gray;
+    }
+
+    .title-header-sign h2 {
+        margin-right: -102px;
+    }
+
+    [name="person-outline"] {
+        font-size: 30px;
+        position: absolute;
+        top: 24px;
+        left: 340px;
+    }
+
+    .card-header {
+        margin-top: -36px;
+        color: #eaeaea;
+        display: flex;
+        margin-right: 190px;
+    }
+
+    [name="cart-outline"] {
+        left: 140px;
+    }
+
+    .circle-card-number {
+        left: 157px;
+    }
+
+    .cart-number h1 {
+        left: 161.5px;
+    }
+
+    /* header-but */
+
+
+
+    .title-header-but h1 {
+        display: none;
+    }
+
+    .header-but {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .dropdone {
+        position: relative;
+        width: 35%;
+        height: 48px;
+        background-color: #e04066;
+        display: flex;
+        flex-direction: row;
+        margin-right: 3%;
+        top: 6px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .header-search {
+        width: 55%;
+        margin: 0 43%;
+        position: absolute;
+        top: 8px;
+    }
+
+    [name="chevron-down-outline"] {
+        font-size: 25px;
+        margin: 11px 8px 0 0;
+    }
+
+    .dropdone h1 {
+        margin: 17px 22px 0;
+    }
+
+
+    /* hero1 */
+    .hero-section .swiper {
+        width: 96%;
+        margin-top: 30px;
+        border-radius: 20px;
+        height: 341px;
+    }
+
+    .hero-section .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+
+     .hero3-section, .off-section, .pishnahad, .footer-copyright, .footer, .link-header, .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
 }
