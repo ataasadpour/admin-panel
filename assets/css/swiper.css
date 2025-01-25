@@ -327,6 +327,14 @@
     right: var(--swiper-navigation-sides-offset, 10px);
     left: auto
 }
+@media only screen and (min-width: 350px) and (max-width: 768px){
+    
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: var(--swiper-navigation-sides-offset, 10px);
+        left: auto;
+        display:none
+    }
+}
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
     content: 'next'
