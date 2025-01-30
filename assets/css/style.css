@@ -1,5 +1,6 @@
 @import url(contact.css);
 @import url(category.css);
+@import url(about.css);
 
 * {
     direction: rtl;
