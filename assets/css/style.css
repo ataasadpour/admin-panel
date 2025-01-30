@@ -1134,7 +1134,7 @@ h1.pishh1 {
 
 /* ris 768 */
 
-@media only screen and (min-width: 577px) and (max-width:768px) {
+@media only screen and (min-width: 577px) and (max-width:1000px) {
     /* header */
 
     .header-logo {
@@ -1410,7 +1410,7 @@ h1.pishh1 {
 
 
 
-    .pishnahad, .link-header {
+    .pishnahad, .link-header, .off-section {
         display: none;
     }
 }
