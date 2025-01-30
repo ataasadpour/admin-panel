@@ -1,4 +1,5 @@
 @import url(contact.css);
+@import url(category.css);
 
 * {
     direction: rtl;
@@ -155,23 +156,23 @@ header {
 
 .ul-dropdone {
     position: absolute;
-    top: 122%;
+    top: 117%;
     z-index: 998;
     background-color: #dd2956;
-    border-radius: 13px;
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    -ms-border-radius: 13px;
-    -o-border-radius: 13px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     display: block !important;
-
 }
+
 
 .ul-dropdone li {
     display: flex;
     flex-direction: column;
     width: 137px;
-    margin: 15px 22px 16px -1px;
+    margin: 3px 22px 16px -1px;
     font-size: 22px;
 
 }
