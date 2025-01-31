@@ -72,4 +72,5 @@ dropdone.addEventListener("mouseleave", droplivefunc)
 
 window.addEventListener('load', function() {
     document.querySelector('.loader-wrapper').style.display = 'none';
+    document.querySelector('.main-all').style.display = 'block';
 });
