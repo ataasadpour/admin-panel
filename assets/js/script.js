@@ -65,7 +65,11 @@ dropdone.addEventListener("mouseleave", droplivefunc)
 
 // loding
 
-document.addEventListener("DOMContentLoaded", () => {
-    let load = document.getElementById("load");
-    load.style.display = "none"
-})
+// document.addEventListener("DOMContentLoaded", () => {
+//     let load = document.getElementById("load");
+//     load.style.display = "none"
+// })
+
+window.addEventListener('load', function() {
+    document.querySelector('.loader-wrapper').style.display = 'none';
+});

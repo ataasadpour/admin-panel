@@ -10,20 +10,40 @@
 }
 
 /* loader */
-
-.spinner {
-    width: 56px;
-    height: 56px;
+.loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
     border-radius: 50%;
-    background: conic-gradient(#0000 10%, #474bff);
-    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
-    animation: spinner-zp9dbg 1s infinite linear;
+    border-top: 5px solid #3498db;
+    animation: spin 1s linear infinite;
+    z-index: 9999;
 }
 
-@keyframes spinner-zp9dbg {
-    to {
-        transform: rotate(1turn);
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
     }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Start Header */
