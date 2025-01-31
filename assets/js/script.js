@@ -36,28 +36,36 @@ var swiper2 = new Swiper(".swiper2", {
     },
     // when window width is >= 320px
     400: {
-        slidesPerView: 1 ,
+        slidesPerView: 1,
         spaceBetween: 10,
-        
-        
-      },
-      // when window width is >= 480px
-      480: {
+
+
+    },
+    // when window width is >= 480px
+    480: {
         slidesPerView: 2,
         spaceBetween: 10,
-      },
+    },
 });
 
 function dropfunc() {
-    uldropejs.className="ul-dropdone"
-    lidrop.className="li-dropjs"
+    uldropejs.className = "ul-dropdone"
+    lidrop.className = "li-dropjs"
 
 }
 function droplivefunc() {
-    uldropejs.className="ul-dropdonelive"
+    uldropejs.className = "ul-dropdonelive"
     // uldropejs.remove(".ul-dropdone")
     // uldropejs.style.display="none !important"
 }
 
 dropdone.addEventListener("mousemove", dropfunc)
 dropdone.addEventListener("mouseleave", droplivefunc)
+
+
+// loding
+
+document.addEventListener("DOMContentLoaded", () => {
+    let load = document.getElementById("load");
+    load.style.display = "none"
+})
